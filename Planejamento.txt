@@ -1,0 +1,31 @@
+PLANEJAMENTO - SITE BARBEARIA 1.0
+
+1. Escopo - 
+Elaborar um site que em um primeiro momento só apresente as informações da barbearia.
+
+2. Requisitos funcionais -
+- Mostrar a localização da barbearia,
+- Mostrar os serviços oferecidos pelo estabelecimento,
+- Mostrar Missão, Visão e valores (quem somos),
+- Mostrar os profissionais que trabalham no lugar,
+- Mostrar horário de funcionamento,
+- Mostrar telefones para contato;
+
+3. Requisitos não funcionais - 
+- Cadastro de clientes no BD,
+- Controle de agendamento dos profissionais,
+- Agendamento de cortes cliente,
+- Planos Basic, Standart e Premium.
+
+4. Tecnologias - 
+- Visual Studio Code com HTML, CSS e Javascript,
+- Bootstrap.
+
+5. Cronograma - 
+- Vamos montar juntos !
+
+6. Levantamento da concorrência - funcionalidades - 
+- O que a concorrência faz que podemos implementar em futuras versões do projeto ? 
+
+7. Wireframe - 
+- Desenho básico da tela do site.
