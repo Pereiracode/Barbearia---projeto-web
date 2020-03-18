@@ -1,7 +1,19 @@
 @charset = "UTF-8";
 
+.margin-contato{padding-bottom:50px;
+
+
+}
+
+.margin{padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+
+}
+
 #banner {
-	min-height: 100vh;
+	min-height:70vh;
 	box-sizing: border-box;
 	color: white;
 	background-image: url("../img/home.gif");
