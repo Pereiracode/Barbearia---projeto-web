@@ -1,83 +1,192 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="img/favicon4.jpg" />
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<title>Nome da barbearia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon4.jpg" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <title>Nome da barbearia</title>
 </head>
+
 <body data-spy="scroll" data-target="#nav-menu" data-offset="150">
-	<header>
-		<div id="banner">
-			<h1>NOME DA BARBEARIA</h1>
-			<h2>Coloque aqui o slogan do seu negócio</h2>
-		</div>
-		<nav class="navbar navbar-inverse" id="navbar">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href="#banner" class="navbar-brand">NOME DA BARBEARIA</a> 
-				</div>
-				
-				<div class="collapse navbar-collapse" id="nav-menu">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#banner">Home</a></li>
-						<li><a href="#valores">Valores</a></li>
-						<li><a href="#servicos">Serviços</a></li>
-						<li><a href="#sobrenos">Sobre nós</a></li>
-						<li><a href="#comochegar">Como chegar</a></li>
-						<li><a href="#horarios">Horários</a></li>
-						<li><a href="#contato">Contato</a></li>
-					</ul>					
-				</div>
-			</div>			
-		</nav>
-	</header>
+    <header>
+        <div id="banner">
+            <h1>NOME DA BARBEARIA</h1>
+            <h2>Coloque aqui o slogan do seu negócio</h2>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark " id="navbar">
+            <img src="img/tesoura_menu.png" width="65px">
+            <a class="navbar-brand" href="#banner">NOME DA BARBEARIA</a>
 
-	<main>
-		<section id="valores">
-			<div class="container">
-				<div class="row text-center">
-					<h3 class="title">VALORES</h3>					
-				</div>
-			</div>
-		</section>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-		<section id="servicos">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#banner">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#valores">Valores</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#sobrenos">Sobre nós</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#comochegar">Como chegar</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#horarios">Horários</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
 
-		</section>
+    <main>
+        <section id="valores">
+            <div class="container">
+                <div class="row text-center">
+                    <h3 class="title">VALORES</h3>
+                </div>
+            </div>
+        </section>
 
-		<section id="sobrenos">
+        <section id="servicos">
+            <div class="container">
+                <div class="row text-center">
+                    <h3 class="title">SERVIÇOS</h3>
+                </div>
+            </div>
 
-		</section>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="img/corte.png" class="rounded-circle margin" alt="corte de cabelo" width="100%" />
+                            <h3 class="card-title text-center"> CORTE DEGRADÊ </h3>
+                            <p class="text-center"> CORTE DE CABELO COM DISFARCE, SUPER TENDÊNCIA E MODERNO. </p>
+                            <h1 class="card-title pricing-card-title text-center"> R$35,00 </h1>
+                        </div>
 
-		<section id="comochegar">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="img/corte.png" class="rounded-circle margin" alt="corte de cabelo" width="100%" />
+                            <h3 class="card-title text-center"> CORTE DEGRADÊ </h3>
+                            <p class="text-center"> CORTE DE CABELO COM DISFARCE, SUPER TENDÊNCIA E MODERNO. </p>
+                            <h1 class="card-title pricing-card-title text-center text-sucess"> R$35,00 </h1>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="img/corte.png" class="rounded-circle margin" alt="corte de cabelo" width="100%" />
+                            <h3 class="card-title text-center"> CORTE DEGRADÊ </h3>
+                            <p class="text-center"> CORTE DE CABELO COM DISFARCE, SUPER TENDÊNCIA E MODERNO. </p>
+                            <h1 class="card-title pricing-card-title text-center"> R$35,00 </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		</section>
+            <div class="container margin">
+                <div class="row ">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="img/corte.png" class="rounded-circle margin" alt="corte de cabelo" width="100%" />
+                            <h3 class="card-title text-center"> CORTE DEGRADÊ </h3>
+                            <p class="text-center"> CORTE DE CABELO COM DISFARCE, SUPER TENDÊNCIA E MODERNO. </p>
+                            <h1 class="card-title pricing-card-title text-center"> R$35,00 </h1>
+                        </div>
 
-		<section id="horarios">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="img/corte.png" class="rounded-circle margin" alt="corte de cabelo" width="100%" />
+                            <h3 class="card-title text-center"> CORTE DEGRADÊ </h3>
+                            <p class="text-center"> CORTE DE CABELO COM DISFARCE, SUPER TENDÊNCIA E MODERNO. </p>
+                            <h1 class="card-title pricing-card-title text-center text-sucess"> R$35,00 </h1>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="img/corte.png" class="rounded-circle margin" alt="corte de cabelo" width="100%" />
+                            <h3 class="card-title text-center"> CORTE DEGRADÊ </h3>
+                            <p class="text-center"> CORTE DE CABELO COM DISFARCE, SUPER TENDÊNCIA E MODERNO. </p>
+                            <h1 class="card-title pricing-card-title text-center"> R$35,00 </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		</section>
 
-		<section id="contato">
 
-		</section>
+        </section>
 
-	</main>
+        <section id="sobrenos">
+            <div class="container">
+                <div class="row text-center">
+                    <h3 class="title">SOBRE NÓS </h3>
+                </div>
+            </div>
+        </section>
 
-	<footer>
+        <section id="comochegar">
+            <div class="container">
+                <div class="row text-center">
+                    <h3 class="title">COMO CHEGAR</h3>
+                </div>
+            </div>
+        </section>
 
-	</footer>
-				
+        <section id="horarios">
+            <div class="container">
+                <div class="row text-center">
+                    <h3 class="title">HORÁRIO</h3>
+                </div>
+        
+    
+        </section>
 
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <section id="contato">
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <h1 class="text-center margin-contato">CONTATO</h1>
+
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">
+                        <img src="img/email.png" width="100px"></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">
+                        <img src="img/facebook.png" width="100px"></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">
+                        <img src="img/whats.png" width="100px"></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">
+                        <img src="img/instagram.png" width="100px"></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">
+                    <img src="img/twitter.png" width="100px"></a>
+            </li>
+
+            </ul>
+
+
+        </nav>
+        </div>
+        <p class="text-center">Copyright 2020 - Nome da Barbearia. Todos os direitos reservados. Desenvolvido por
+            Jefferson Soares e Mateus Pereira</p>
+
+    </footer>
+
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
-</html>	
+
+</html>
