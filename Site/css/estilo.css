@@ -1,7 +1,20 @@
-@charset = "UTF-8";
+@charset  "UTF-8";
+
+.margin-contato{padding-bottom:50px;
+
+
+}
+
+
+.margin{padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+
+}
 
 #banner {
-	min-height: 100vh;
+	min-height:70vh;
 	box-sizing: border-box;
 	color: white;
 	background-image: url("../img/home.gif");
@@ -73,15 +86,12 @@ section .title{
 
 footer{
     background-color: #222222;
-    padding:20px;
+    padding:50px;
     color: white;
 }
-.footer-links{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 15px auto;
-}
+
+
+
 .icon-social{
     height: 40px;
     width: 40px;
